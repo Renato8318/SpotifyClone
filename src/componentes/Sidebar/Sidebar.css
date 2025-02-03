@@ -1,7 +1,3 @@
-body{
-    background-color: #000;
-}
-
 .sidebar{
     position:fixed;
     top:0;
@@ -35,6 +31,7 @@ body{
 
 .sidebar ul li{
     padding: 10px 0;
+    list-style: none;
 }
 
 .sidebar nav ul li a{
@@ -42,7 +39,10 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav ul li a span{
+    margin-right: 10px;
 }
 
 .library{
@@ -71,7 +71,6 @@ body{
     border:0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -112,7 +111,6 @@ body{
 .section-playlist__content .text{
     padding-bottom:14px;
     color:#FFF;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title{
@@ -132,7 +130,6 @@ body{
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration:none;
     text-transform: none;
     padding:10px;
@@ -147,7 +144,6 @@ body{
 
 .sidebar .cookies a{
     color:#b3b3b3;
-    font-family: "DM Sans", sans-serif;
     font-weight: 500;
     font-size:10px;
     text-decoration: none;
@@ -164,8 +160,12 @@ body{
     color:#FFF;
     font-weight: bold;
     cursor:pointer;
-    width: 170px;
+    width: 180px;
     margin:8px;
     padding:8px;
     border-radius:20px;
+}
+
+.languages .languages__button span{
+    margin-right: 10px;
 }
